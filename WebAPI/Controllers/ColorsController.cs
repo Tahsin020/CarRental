@@ -68,7 +68,7 @@ namespace WebAPI.Controllers
         }
 
 
-        [HttpGet("getal")]
+        [HttpGet("getall")]
         public IActionResult GetAll()
         {
             var result = _colorService.GetAll();
