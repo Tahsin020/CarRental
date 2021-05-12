@@ -42,7 +42,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
-
+         
 
         [HttpPost("delete")]
         public IActionResult Delete(User user)
